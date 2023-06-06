@@ -2,6 +2,7 @@
 
 This repository contains a set of scripts to convert the "Bad Apple" video into ASCII art representation and display it on terminal for linux.
 Do the optional mark if you want to make ascii frames for other video.
+![Demo](media/demo.gif)
 ## Prerequisites
 
 Before running the scripts, please ensure that you have the following dependencies installed on your system:
