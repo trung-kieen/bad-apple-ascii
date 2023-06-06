@@ -1,7 +1,7 @@
 # Bad Apple For Terminal
 
 This repository contains a set of scripts to convert the "Bad Apple" video into ASCII art representation and display it on terminal for linux.
-Do the optional mark if you want to make ascii frames for other video
+Do the optional mark if you want to make ascii frames for other video.
 ## Prerequisites
 
 Before running the scripts, please ensure that you have the following dependencies installed on your system:
@@ -15,7 +15,7 @@ Before running the scripts, please ensure that you have the following dependenci
 
 ### 1. Converting the Video to ASCII Text (Optional)
 
-To convert the "Bad Apple" video (`bad_apple.mp4`) into ASCII art and save it into frames-ascii folder, run the following command:
+To convert the "Bad Apple" video (`bad_apple.mp4`) into ASCII art and save it into `frames-ascii` folder, run the following command:
 
 ```bash
 $ ./make-ascii.sh
