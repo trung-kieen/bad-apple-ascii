@@ -14,13 +14,15 @@ mpv --no-video --audio-device=alsa  bad_apple.mp4 > /dev/null 2>&1 &
 dir="$SCRIPT_DIR/frames-ascii" 
 
 for filename in $(ls -v "$dir"); do
-    clear
+#    clear
     file="$dir/$filename"
     if [ -f "$file" ]; then
         cat "$file"
     fi
 
+#    sleep $((0.02 / $speed))
     sleep 0.024
+
 
 done
 

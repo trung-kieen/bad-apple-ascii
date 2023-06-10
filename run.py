@@ -47,7 +47,7 @@ def display_output():
             with open(f, 'r') as file:
                 print(file.read())
         sleep(0.024 / speed)
-        os.system('cls' if os.name == 'nt' else 'clear')
+#        os.system('cls' if os.name == 'nt' else 'clear')
 
 if __name__ == "__main__":
     main()
