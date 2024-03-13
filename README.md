@@ -32,7 +32,7 @@ To display the ASCII art directly from a Python script, you can use the `run.py`
 $ python run.py
 ```
 
-#### Running on Terminal
+#### Running from bash
 
 To display the ASCII art directly in the terminal. Run the following command:
 
