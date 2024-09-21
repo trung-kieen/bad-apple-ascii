@@ -7,10 +7,7 @@ rm  frame-ascii/*
 mkdir -p frames-ascii
 for file in $PWD/frames-bad-apple/*;
 do
-#  echo $file
-#  ascii-image-converter $file 
   filename=$(basename "$file")
   echo $filename
   ascii-image-converter  $file >  frames-ascii/$filename.txt
 done
-
